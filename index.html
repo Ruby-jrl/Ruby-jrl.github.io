@@ -1,20 +1,53 @@
-<!--html document-->
+<!DOCTYPE html>  <!--press ! and emmnet gives the basic structure-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header id="mainHeader">   <!--Emmet header#id, div.class-->
+        <div class="container">
+            <h1>Yeah!</h1>
+        </div>
+    </header>
+    <nav id="mainNav">
+        <div class="container">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="jumbo">
+        <div class="container">
+            <h1>this is a formal website where jokes are not allowed</h1>
+        </div>
+    </section>
 
-<html>                                      <!--should be included-->
-    <head>                                  <!--must have head section-->
-        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>  <!--html元信息-->
-        <title>Self-introduction</title>
-    </head>
-    <body>                                  <!--must have body, all content goes here-->
-        <h1>Introduction</h1>
-        <dl>
-            <dt>Name</dt>
-            <dd>JR</dd>
-            <dt>About me</dt>
-            <dd>I am Ruby, a second-year engineering student studying in Univeristy of Cambridge.</dd>
-            <dt>Hobby</dt>
-            <dd>Japanese, singing, reading, watching drama and anime</dd>
-        </dl>
-        <img src="C:\JR\My files\photo\Ruby.jpg" width="50%"/>       <!--html code for img-->
-    </body>
+    <div class="container"> <!--.myclass-->
+        <aside id="sidebar">
+            <p>Mind you, I wouldn't do so much deep nesting of folders. It seems unnecessary and makes life a bit difficult, as you've found.</p>
+        </aside>
+        <section id="main">
+            <h2>Section Title</h2>
+            <p>GitHub Pages is available in public repositories with GitHub Free and GitHub Free for organizations, and in public and private repositories with GitHub Pro, GitHub Team, GitHub Enterprise Cloud, and GitHub Enterprise Server. For more information, see "GitHub's products."</p>
+        </section>
+        <div class="clearFix"></div>
+        <div id="pExample">
+            <span>Span 1</span>
+            <span>Span 2</span>
+        </div>
+    </div>
+
+    <div id="fixed">Fixed Element</div>
+
+    <footer id="mainFooter">
+        <p>Copyright &copy; 2019 CSS Beginners Website</p>
+    </footer>
+</body>
 </html>
